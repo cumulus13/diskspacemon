@@ -80,7 +80,7 @@ setup(
         "Documentation": "https://github.com/cumulus13/diskspacemon",
         "Code": "https://github.com/cumulus13/diskspacemon",
     },
-    packages = ['sendgrowl'],
+    packages = [NAME],
     download_url = 'https://github.com/cumulus13/diskspacemon/tarball/master',
     install_requires=[
         'sendgrowl',
