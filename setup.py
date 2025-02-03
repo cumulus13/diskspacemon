@@ -104,4 +104,5 @@ setup(
         "Programming Language :: Python :: 3",
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
+    long_description=get_description()
 )
