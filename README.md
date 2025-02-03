@@ -1,5 +1,5 @@
 # DiskSpaceMon
-Monitoring space of directoty/path/drive then send notification to growl and syslog/remote syslog with multiple host and port
+Monitoring space of directory/path/drive then send notification to growl and syslog/remote syslog with multiple host and port
 
 ## Installing
 

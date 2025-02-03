@@ -72,7 +72,7 @@ setup(
     author_email = 'cumulus13@gmail.com',
     maintainer="cumulus13 Team",
     maintainer_email="cumulus13@gmail.com",    
-    description = ('Monitoring space of directoty/path/drive then send notification to growl and syslog/remote syslog with multiple host and port'),
+    description = ('Monitoring space of directory/path/drive then send notification to growl and syslog/remote syslog with multiple host and port'),
     license = 'MIT',
     keywords = "disk space monitor growl syslog",
     url = 'https://github.com/cumulus13/diskspacemon',
