@@ -1,1 +1,1 @@
-from .monitor import DiskSpaceMon as monitor
+from .monitor import DiskSpaceMon

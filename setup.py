@@ -58,11 +58,11 @@ version = __version__.version
 
 if sys.version_info.major == 3:
     entry_points = {
-         "console_scripts": ["diskspacemon3 = monitor:usage", "diskspacemon = monitor:usage"]
+         "console_scripts": ["diskspacemon3 = diskspacemon:__main__.usage", "diskspacemon = diskspacemon:__main__.usage"]
     }
 else:
     entry_points = {
-         "console_scripts": ["diskspacemon = monitor:usage",]
+         "console_scripts": ["diskspacemon = diskspacemon:__main__.usage",]
     }
 
 setup(
@@ -88,7 +88,8 @@ setup(
         'configset',
         'pydebugger',
         'ctraceback',
-        'bitmath'
+        'bitmath',
+        'json5'
     ],
     entry_points = entry_points,
     package_data={'': ['__version__.py', 'monitor.ini']},

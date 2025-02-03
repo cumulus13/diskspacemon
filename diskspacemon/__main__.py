@@ -1,3 +1,7 @@
 from .monitor import DiskSpaceMon
 
-DiskSpaceMon.usage()
+def usage():
+    DiskSpaceMon.usage()
+
+if __name__ == '__main__':
+    usage()
