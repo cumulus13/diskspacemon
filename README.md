@@ -12,11 +12,11 @@ $ pip install diskspacemon
 ## Example
 
 ```python
->>> from diskspacemon import monitor
->>> m = monitor()
->>> m.GROWL_HOST = ['127.0.0.1', '192.168.100.2]
->>> m.SYSLOG_HOST = ['127.0.0.1', '192.168.100.2]
->>> monitor().monitor_directory("/", 60, 100, True) # parameter: path, interval time sleep, size threshold, verbose
+>>> from diskspacemon import DiskSpaceMon
+>>> m = DiskSpaceMon()
+>>> m.GROWL_HOST = ['127.0.0.1', '192.168.100.2']
+>>> m.SYSLOG_HOST = ['127.0.0.1', '192.168.100.2']
+>>> m.monitor_directory("/", 60, 100, True) # parameter: path, interval time sleep, size threshold, verbose
 ```
 
 run on terminal/cmd
