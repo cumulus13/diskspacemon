@@ -89,7 +89,9 @@ setup(
         'pydebugger',
         'ctraceback',
         'bitmath',
-        'json5'
+        'json5',
+        'pypiwin32; platform_system=="Windows"',
+        'comtypes; platform_system=="Windows"', 
     ],
     entry_points = entry_points,
     package_data={'': ['__version__.py', 'monitor.ini']},
